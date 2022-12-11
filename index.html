@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minecraft Canvas</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+
+<body class="body_background">
+
+	<center>
+
+	<h2 class="btn-primary">MINECRAFT</h2>
+
+	<div id="head_info" class="btn-danger">
+		<h3>Current Width  = <span id="current_width">30</span></h3>
+		<h3>Current Height  = <span id="current_height">30</span></h3>
+	</div>
+
+	<canvas width="1000" height="600" id="myCanvas"></canvas>
+	<br><br>
+	<div id="backgroundBlue">
+		<label for="skin">Skin:&nbsp;&nbsp;</label>
+		<select id="skin">
+			<option selected value="0">Steve</option>
+			<option value="1">Alex</option>
+			<option value="2">Green player</option>
+			<option value="3">half blue half red</option>
+			<option value="4">enderman person</option>
+		</select>
+	</div>
+	</center>
+
+	<script src="main.js"></script>
+</body>
+</html>
